@@ -1,0 +1,27 @@
+### Question:
+ Think of everyday situations that simulation could analyze. What aspects of the situation make the simulation
+ approach specifically appropriate for analyzing the situation
+(i.e., think about and explain why simulation would be specifically better than experimenting in the real world).
+What aspects of sustainability can you incorporate into the simulation
+
+
+
+### Answer:
+A real-world local bank operational system will have the following variability, complexity, and interconnectedness.
+    - Variability:
+      + Customers: A random number of customers will come to the bank every day
+      + Employees: The number of Employees who work for the bank
+      + Desks: The number of desks available
+      + Time: The time waiting for the Customer's turn
+      + The process update time of the system
+
+    - Complexity:
+        + The number of desks available
+        + The waiting time for each turn
+        + The number of customers
+        + The number of employees
+        + The update process of the system
+
+    - Interconnectedness:
+        + If one employee is absent or the number of desks are not sufficient, the waiting time increase
+        + If the update process slow down or crash out, then the waiting time will increase
